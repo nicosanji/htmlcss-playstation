@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ROOT */
+:root {
+    --bs-dark-rgb: 0, 0, 0;
+
+
+}
+
+/* header */
+
+.header-top img {
+    max-height: 25px;
+    padding: 2.5px 0;
+}
