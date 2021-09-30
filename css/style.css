@@ -2,16 +2,32 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* ROOT */
+a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+/* root */
+
 :root {
     --bs-dark-rgb: 0, 0, 0;
 
 
 }
 
+/* my utilities (buttons / colors */
+
+.my-button {
+    color: white;
+    padding: .25rem .75rem;
+}
+
+.bg-gray1 {
+    background-color: #363636;
+}
+
 /* header */
 
-.header-top img {
-    max-height: 25px;
-    padding: 2.5px 0;
+.header-top img {    
+    max-height: 15px;
 }
