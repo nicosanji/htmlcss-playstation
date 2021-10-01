@@ -178,7 +178,7 @@ a {
 /* console-ps5 */
 
 .console-ps5 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 /* console-gadget */
@@ -213,7 +213,50 @@ a {
     max-width: 100%;
 }
 
+/* third-hero = fourth-hero */
+
+.third-hero img {
+    max-width: 100%;
+}
+
+.third-hero .h2-box2 img {
+    max-width: 60%;
+}
+
+/* discount */
+
+.discount {
+    overflow: hidden;
+}
+
+.discount img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+/* social */
+
+.social img {
+    max-width: 100%;
+    margin: 5px 0;
+}
+
 /* FOOTER */
+
+footer .my-ul {
+    list-style: none;
+    padding: 0 20px;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: white;
+}
+
+.last-logo {
+    width: 10rem;
+}
 
 /* MEDIAQUERY */
 
