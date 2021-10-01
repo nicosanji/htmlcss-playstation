@@ -4,24 +4,32 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    font-size: 0.9rem;
+}
+
 a {
     text-decoration: none;
-    color: #1f1f1f;
 }
 
 /* utilities (layout) */
 
 .section-a {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .section-b {
-    padding: 100px 0;
-} 
+    padding: 50px 0;
+}
 
 .section-c {
-    padding: 150px 0;
-} 
+    padding: 70px 0;
+}
+
+.section-news {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
 
 /* utilities ( text / font) */
 
@@ -52,7 +60,7 @@ a {
     margin-bottom: 20px;
 }
 
-.h5-box1{
+.h5-box1 {
     font-size: 0.9rem;
 }
 
@@ -61,13 +69,17 @@ a {
     margin-bottom: 20px;
 }
 
+.h5-box3 {
+    margin-bottom: 20px;
+}
 
 
-/* utilities (buttons / colors ) */
+/* utilities (buttons / colors) */
 
 .my-button {
     padding: .25rem .75rem;
     display: inline-block;
+    font-size: 0.9rem;
 }
 
 .bg-black {
@@ -110,14 +122,34 @@ a {
     background-color: #cd3d0f;
 }
 
+.txt-black {
+    color: #1f1f1f;
+}
+
+.txt-gray {
+    color: #727272;
+}
+
+.txt-blue {
+    color: #0072ce;
+}
+
 /* HEADER */
 
-.header-top img {    
+.header-top img {
     max-height: 15px;
 }
 
-/* MAIN */
+.header-bottom a {
+    color: #1f1f1f;
+}
 
+.header-bottom .fa-chevron-down {
+    color: #a1a1a1;
+    font-size: 0.7rem;
+}
+
+/* MAIN */
 
 /* first-hero */
 
@@ -128,11 +160,57 @@ a {
 }
 
 .first-hero .container {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .first-hero img {
     max-width: 60%;
+}
+
+/* first-hero-imgs */
+
+.first-hero-imgs img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 7.5px 0;
+}
+
+/* console-ps5 */
+
+.console-ps5 img {
+    width: 100%;
+}
+
+/* console-gadget */
+
+.console-gadget img {
+    width: 100%;
+}
+
+/* second-hero */
+
+.second-hero {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.second-hero img {
+    max-width: 60%;
+}
+
+/* news */
+
+.news img {
+    max-width: 100%;
+    margin: 5px 0;
+    border-radius: 20px;
+}
+
+/* explore-gadget */
+
+.explore-gadget img {
+    max-width: 100%;
 }
 
 /* FOOTER */
