@@ -67,6 +67,7 @@ a {
 
 .my-button {
     padding: .25rem .75rem;
+    display: inline-block;
 }
 
 .bg-black {
@@ -117,8 +118,25 @@ a {
 
 /* MAIN */
 
+
+/* first-hero */
+
 .first-hero {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
 }
+
+.first-hero .container {
+    padding-top: 100px;
+}
+
+.first-hero img {
+    max-width: 60%;
+}
+
+/* FOOTER */
+
+/* MEDIAQUERY */
+
+
